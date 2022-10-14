@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Segunstar/testimonials-grid-section](https://github.com/Segunstar/testimonials-grid-section)
+- Solution URL: [https://github.com/Segunstar/testimonials-grid-section/](https://github.com/Segunstar/testimonials-grid-section)
 - Live Site URL: [https://segunstar.github.io/testimonials-grid-section/](https://segunstar.github.io/testimonials-grid-section/)
 
 ## My process
