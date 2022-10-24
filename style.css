@@ -20,9 +20,9 @@ body {
     grid-template-areas: 
     "A A B E"
     "C D D E";
-    gap: 20px;
+    gap: 2em;
     align-content: center;
-    padding: 20px;
+    /* padding: 0em; */
     scale: 0.9;
 
     color: white;
@@ -30,17 +30,21 @@ body {
 }
 /* general grid boxes styles */
 [class*="box-"] {
-    padding: 25px;
-    border-radius: 5px;
-    box-shadow: 10px 10px hsl(0, 0%, 81%) 1px;
-  }
+    padding: 1.5em;
+    border-radius: .5em;
+    box-shadow: .8em .8em hsl(0, 0%, 81%) .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -o-border-radius: .5em;
+}
   /* general image, name styles */
   .flexed {
     display: flex;
     align-items: center;
   }
   .flexed > div {
-    margin: 20px 20px;
+    margin: 1em 1em;
   }
   .flexed > div > .transparent {
     opacity: 50%;
@@ -77,7 +81,9 @@ body {
         display: flex;
         flex-flow: column wrap;
         padding: 0;
-        margin:10vh 8% 0 1%;
+        margin:10vh 8% 0 8%;
         scale: 1;
     }
 }
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
